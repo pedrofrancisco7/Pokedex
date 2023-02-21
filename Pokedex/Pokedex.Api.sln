@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{CBAC0565-2E4D-42D5-8724-EAE36983930D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{C3265865-8F71-42FC-95BA-302B5F79DF5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{976A2657-3CAD-4CEB-83D9-4B5783C16190}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{49BDFE91-30BD-4398-AD15-189536883DD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Infra.Data", "4.1 - Infra.Data", "{5DCEC6C5-A8DE-4834-9D0C-0121DCD49121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Infra.IoC", "4.2 - Infra.IoC", "{D27EBC29-B9B1-4346-8360-122D5DDE1829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.Application", "Pokedex.Application\Pokedex.Application.csproj", "{81CCE48A-0418-49FC-AA1F-A77676A821F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.Service", "Pokedex.Service\Pokedex.Service.csproj", "{03D0F2FF-3BD6-4A73-9AF6-65D90B232519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.Domain", "Pokedex.Domain\Pokedex.Domain.csproj", "{1BA58737-76F7-4B62-AD3D-FD560705A8F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.Data", "Pokedex.Data\Pokedex.Data.csproj", "{327F714C-F529-45A0-9246-E5E79B14AA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex.IoC", "Pokedex.IoC\Pokedex.IoC.csproj", "{23E2014E-AA98-4E83-9E78-38162BD42176}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CCE48A-0418-49FC-AA1F-A77676A821F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CCE48A-0418-49FC-AA1F-A77676A821F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CCE48A-0418-49FC-AA1F-A77676A821F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CCE48A-0418-49FC-AA1F-A77676A821F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D0F2FF-3BD6-4A73-9AF6-65D90B232519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D0F2FF-3BD6-4A73-9AF6-65D90B232519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D0F2FF-3BD6-4A73-9AF6-65D90B232519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D0F2FF-3BD6-4A73-9AF6-65D90B232519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA58737-76F7-4B62-AD3D-FD560705A8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA58737-76F7-4B62-AD3D-FD560705A8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA58737-76F7-4B62-AD3D-FD560705A8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA58737-76F7-4B62-AD3D-FD560705A8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327F714C-F529-45A0-9246-E5E79B14AA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327F714C-F529-45A0-9246-E5E79B14AA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327F714C-F529-45A0-9246-E5E79B14AA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327F714C-F529-45A0-9246-E5E79B14AA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E2014E-AA98-4E83-9E78-38162BD42176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E2014E-AA98-4E83-9E78-38162BD42176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E2014E-AA98-4E83-9E78-38162BD42176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E2014E-AA98-4E83-9E78-38162BD42176}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D822D881-8F79-4F86-ADEA-E825D3854FE0}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DCEC6C5-A8DE-4834-9D0C-0121DCD49121} = {49BDFE91-30BD-4398-AD15-189536883DD4}
+		{D27EBC29-B9B1-4346-8360-122D5DDE1829} = {49BDFE91-30BD-4398-AD15-189536883DD4}
+		{81CCE48A-0418-49FC-AA1F-A77676A821F3} = {CBAC0565-2E4D-42D5-8724-EAE36983930D}
+		{03D0F2FF-3BD6-4A73-9AF6-65D90B232519} = {C3265865-8F71-42FC-95BA-302B5F79DF5E}
+		{1BA58737-76F7-4B62-AD3D-FD560705A8F6} = {976A2657-3CAD-4CEB-83D9-4B5783C16190}
+		{327F714C-F529-45A0-9246-E5E79B14AA0E} = {5DCEC6C5-A8DE-4834-9D0C-0121DCD49121}
+		{23E2014E-AA98-4E83-9E78-38162BD42176} = {D27EBC29-B9B1-4346-8360-122D5DDE1829}
+	EndGlobalSection
+EndGlobal
